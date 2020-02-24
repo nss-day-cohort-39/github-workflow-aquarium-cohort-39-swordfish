@@ -56,6 +56,14 @@ const initializeDetailButtonEvents = () => {
             theDialog.showModal()
         }
     )
+     // Show Keke's details when the button is clicked
+     document.querySelector("#button--Keke").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--Keke")
+            theDialog.showModal()
+        }
+    )
 }
 
 export default initializeDetailButtonEvents
